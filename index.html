@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Travel-goo</title>
+    <script src="script.js"></script>
     <link rel="icon" href="images/Travel Goo (2).png">
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -25,7 +26,10 @@
                 <img src="images/clarity_favorite-line.png">
                 <img src= "./images/health-icon.png">
             </div>
-
+            <div class="menu-bar">
+               <div class=""></div> 
+               <div class=""></div>
+            </div>
     </div>
     <div class="hero">
        <div class="hero-content">
@@ -42,37 +46,39 @@
     
     </div>
     </div>
-    <div class="service-heading">
-        <p>Our Services</p>
-    </div>
-    <div class="services">
+    <div class="service-wrap">
+        <div class="service-heading">
+            <p>Our Services</p>
+        </div>
+        <div class="services">
 
-       <div class="ticket-b">
-        <img src="images/Vector.svg">
-        <br>
-        <p>Ticket Booking</p>
-        <br>
-        We book all kind of national or international
-        ticket for your destinaion.
-       </div>
-       <div class="ticket-b">
-        <img src="images/carbon_hotel.png">
-        <br><br>
-        <p>Hotel Booking</p>
-        <br>
-        You can easily book your according to your
-        budget hotel by our website.
-       </div>
-       <div class="ticket-b">
-        <img src="images/cil_paper-plane.jpg">
-        <br><br>
-        <p>Tour Plan</p>
-        <br>
-        We provide you the best plan within a short
-        time explore more.
-       </div>
-
+        <div class="ticket-b">
+            <img src="images/Vector.svg">
+            <br>
+            <p>Ticket Booking</p>
+            <br>
+            We book all kind of national or international
+            ticket for your destinaion.
+        </div>
+        <div class="ticket-b">
+            <img src="images/carbon_hotel.png">
+            <br><br>
+            <p>Hotel Booking</p>
+            <br>
+            You can easily book your according to your
+            budget hotel by our website.
+            </div>
+        <div class="ticket-b">
+            <img src="images/cil_paper-plane.jpg">
+            <br><br>
+            <p>Tour Plan</p>
+            <br>
+            We provide you the best plan within a short
+            time explore more.
+        </div>
+        </div>
     </div>
+    <div class="our-goal-wrap">
          <div class="our-goal-heading">
             <p><h4>We always try to give you 
                 the best service</h4>
@@ -87,56 +93,54 @@
                 <br>
                 <p>15+</p>
                 <br>
-                Years of Experience
-            </div>
+                <p  class="p-two">Years of Experience</p>
+           </div>
             <div class="child-div">
                 <img src="images/ant-design_bar-chart-outlined.png">
                 <br>
                 <p>15k+</p>
                 <br>
-                Happy Customers
+                <p  class="p-two">Happy Customers</p>
             </div>
             <div class="child-div">
                 <img src="images/carbon_map.png">
                 <br>
                 <p>650+</p>
                 <br>
-                Places Visited
+                <p  class="p-two">Places Visited</p>
             </div>
             <div class="child-div">
                 <img src="images/gridicons_history.png">
                 <p>2k+</p>
                 <br>
-                Travel History
+                <p  class="p-two">Travel History</p>
             </div>
-       
-
-        </div>
+       </div>
+    </div>
     <div class="destination">
-        <div class="destination-heading">
-            Our Popular Destinations
-        </div>
+        <h3>Our Popular Destination</h3>
+    
         <div class="destination-content">
            
             <div class="pop-map">
-                <img src="images/world_map_PNG28 2.png" width="600px" height="600px">
+                <img src="images/world_map_PNG28 2.png">
             </div>
                 
            <div class="pop-images">
             <div class="location"><img src="images/Rectangle 15.png">
-            <p class="country">Thailand</p>
-            <p class="map-area">20+ Spots<br>2D & 3N</p>
-            <img src="images/ic_round-navigate-next.png">
+                &nbsp;<p class="country">  Thailand</p>
+                &nbsp;<p class="map-area">20+ Spots<br>2D & 3N</p>
+            <img class="next" src="images/ic_round-navigate-next.png">
          </div>
             <div class="location"><img src="images/Rectangle 16.png">
-                <p class="country">Indonesia</p>
-                <p class="map-area">25+ Spots<br> 3D & 3N</p>
-                <img src="images/ic_round-navigate-next.png">
+                &nbsp;<p class="country">Indonesia</p>
+                &nbsp;<p class="map-area">25+ Spots<br> 3D & 3N</p>
+                <img class="next"  src="images/ic_round-navigate-next.png">
             </div>
             <div class="location"><img src="images/Rectangle 17.png">
-                <p class="country">&nbsp;  New Zealand &nbsp;</p>
-                <p class="map-area">20+ Spots<br>3D & 2N</p>
-                <img src="images/ic_round-navigate-next.png">
+                &nbsp;<p class="country">&nbsp;  New Zealand &nbsp;</p>
+                &nbsp;<p class="map-area">20+ Spots<br>3D & 2N</p>
+                <img class="next" src="images/ic_round-navigate-next.png">
             </div>  
           
             
@@ -206,15 +210,16 @@
                      </div>
  
              </div>
-             <button>Discover More</button>
+             
         </div>
-       
+        <button>Discover More</button>
    </div>
+   <!-- ----------------------------------------------------------- -->
    <div class="bookings-wrap">
-    <div class="booking-heading">
+     <div class="booking-heading">
         <h2>Book Your Next Trip in 3 Easy Steps</h2>
      Easy and Fast
-    </div>
+     </div>
     
     <div class="procedure-wrap">
         <div class="procedures">

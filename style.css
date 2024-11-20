@@ -197,6 +197,12 @@ h4{
     margin-top:50px;
     margin-bottom:50px;
 }
+.destination h3{
+    text-align:center;
+    padding-top:50px;
+    font-size:24px;
+    margin-bottom:50px;
+   }
 .destination-content{
     height:600px;
     width:100%;
@@ -447,6 +453,8 @@ input{
     margin-right:20px;
     border-radius:15px;
     border-style:none;
+    align-items: center;
+    margin-bottom:100px;
     
 }
 .plane-paper{
@@ -507,7 +515,7 @@ input{
     .parent{ background-size:cover;
             background-repeat:no-repeat;
             width:100%;
-            height:400px;
+            height:100vh;
     }
     .header{
         display:flex;
@@ -515,32 +523,43 @@ input{
        /*  border: 1px solid red; */
         justify-content: space-between;
         padding-top:4px;
+        width:370px;
+        margin-left:20px;
+       
     }
     
+    .menu-bar{
+        height:50px;
+        width:50px;
+        border:1px solid red;
+        border-radius:8px;
+    }
+    .men-bar div{
+        height:70px;
+        width:70px;
+        border-radius:8px;
+        border:5px green solid;
+    }
     .logo{
         height:50px;
-        width:100px;
+        width:70px;
        /*  border:1px solid black; */
     }
     .nav{
-        height:50px;
+        display:none;
+       /*  height:50px;
         width:400px;
-       /*  border:1px solid black; */
+       
         margin-block: 10px;
         justify-content:space-around;
         padding-top:5px;
         margin-left:70px;
         display:grid;
-        grid-template-columns: auto;
+        grid-template-columns: auto; */
     }
-    /* .profile{
-        height:50px;
-        width:250px;
-   
-        display:flex;
-        justify-content: space-evenly;
-    } */
-    
+   .profile{
+    display:none;
+   }
     .hero{
         width:90%;
         height:300px;
@@ -592,8 +611,12 @@ input{
         cursor:pointer;
         border-style:none;
     }
+    .service-wrap{
+        height:900px;
+        width:100%;
+    }
     .service-heading{
-       
+       margin:auto;
         width:100%;
         height:50px;
         
@@ -603,440 +626,96 @@ input{
         margin-left:auto;
         margin-right:auto;
         display:block;
+        font-size:24px;
     }
-    .services{
-        width:100%;
-        height:800px;
-        background:white;;
-        color:black;
-        display:grid;
-        justify-content:space-around;
-        
-    } 
-    .service-heading p{
-        padding-top:30px;
-        font-size:22px;
-        width:150px;
-        justify-content:center;
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        font-weight: bolder;
-        
-    }
-    .services div{
-        height:120px;
-        width:300px;
-        border-radius:18px;
-        background:#F9F9F9;
-        
-    }
-    .services p{
-        font-weight:bolder;
-    }
-    .ticket-b{
-        height:400px;
-        text-align:center;
-        width: 90%;
-        margin-left:auto;
-        margin-right:auto;
-        justify-content:center;
-       
-
-
-    }
-    .ticket-b img{
-    width:100%;
-    height:100px;
-    }
-    .services .ticket-b{
-       background-color:white;
-       border:1px;
-       border-style: groove;
-       height:200px;
-       text-align:center;
-       
-    }
-    .our-goal-heading{
-        background:#0058530D;
-        width:100%;
-        text-align:center;
-        margin:auto;
-       
-       
-    }
-    .our-goal-heading p{
-        padding-top:20px;
-        text-align:center;
-        width:200px;
-        margin-left:430px;
-       
-     }
-    
-    h4{
-        font-size: 17px;
-    }
-    
-    
-    .our-goal{
-        width:100%;
-        height:300px;
-        text-align:center;
-        display:flex;
-        justify-content:space-between;
-        background: #0058530D;
-        margin-top:auto;
-    }
-    
-    .child-div{
-    
-        /* border:1px solid green; */
-        height:205px;
-        width:80px;
-        justify-content:center;
-        border-radius:12px;
-        text-align:center;
-        padding:5px;
-        background-color:white;
-    
-    }
-    
-    .child-div p{
-        font-weight:bolder;
-        font-size:32px;
-    }
-    
-    .destination{
-        height:400px;
-        width:100%;
-        background-color:white;
-       
-    }
-    
-    .destination-heading{
-        
-        text-align:center;
-        font-weight:400;
-        font-size:22px;
-        margin-top:50px;
-        margin-bottom:50px;
-    }
-    .destination-content{
-        height:600px;
-        width:100%;
-        background-color:white;
-        display:flex;
-       
-    }
-    .pop-images{
-    display:grid;
-    grid-template-rows: auto;
-    row-gap: 50px;
-    margin-left:50px;
-    }
-    .pop-images img{
-        height:150px;
-        width:150px;
-    }
-    .location{
-        display:flex;
-        justify-content:space-between;
-    }
-    .country{
-        align-items:center;
-        margin-top:50px;
-    }
-    .map-area{
-        margin-top:45px;
-    }
-    .packages-wrap{
-        height:1300px;
-        width:100%;
-        background: #ECF1F0;
-    
-       /*  border:1px solid red;
-     */
-    }
-    .packages-wrap h2{
-        text-align:center;
-        padding-top:50px;
-        font-size:22px;
-    }
-    .listed-packages{
-        width:90%;
-        /* border:1px solid green; */
-        height:40px;
-        margin-right:auto;
-        margin-left:auto;
-        display:block;
-        display:flex;
-        justify-content:space-between;
-        margin-top:20px;
-        
-    
-    }
-    .list-content{
-        border-radius:6px;
-        background: #666666;
-        color:white;
-        width:80px;
-        text-align:center;
-        padding-top:6px;
-        margin-inline: 3px;
-    }
-    .odd-color{
-        background:green;
-    }
-    .location-wrap{
-        height:1100px;
-        width:90%;
-       /*  border:1px rgb(127, 202, 127) solid; */
-        margin-top:50px;
-        display:list-item;
-        margin-left:auto;
-        margin-right:auto;
-       
-         
-    }
-    .location-wrap-content{
-     height:300px;
-     width:100%;
-     border-radius:10px;
-     background:white;
-     margin-top:30px;
-    }
-   .price-ish{
+   .services{
     display:flex;
-    justify-content: space-between;
-    width:330px;
+    flex-direction: column; 
+    height:800px;
+
    }
-    .location-wrap-content img{
-        width:inherit;
-        height:65%;
+   .services img{
+    height:100px;
+    width:100px;
+    margin-left:100px;
+    
+   }
+   .ticket-b{
+    margin-left:20px;
+   }
+   .ticket-b p{
+    text-align:center;
+    font-size:18px;
+   }
 
-    }
-    .ep img{
-        display:none;
-    }
-   
-    .location-wrap-content div{
-        display:flex;
-        justify-content:space-between;
-        min-width:330px;
-    }
-    .packages-wrap button{
-        
-        margin-top:40px;
-        color: #FFFFFF; 
-        background: #00A651;
-        width:214px;
-        height:40px;
-        font-size: 20px;
-        border-radius:15px ;
-        cursor:pointer;
-        border-style:none;
-      
-    }
-    .bookings-wrap{
-        width:100%;
-        height:450px;
-        background:white;
-        
-    }
-    
-    
-    .booking-heading{
-        text-align:center;
-        margin-top:40px;
-        font-size:22px;
-    }
-    .procedure-wrap{
-       /*  border:1px red solid; */
-        width:80%;
-        height:300px;
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        margin-top:40px;
-        display:flex;
-        justify-content:space-around;
-    }
-    .procedures{
-       /*  border:1px blue solid; */
-        width:400px;
-        height:100%;
-        display:grid;
-        grid-template-columns: auto;
-        grid-column-gap:auto;
-        padding-top:20px;
-    }
-    .procedure-child{
-        display:flex;
-        justify-content:space-around;
-    }
-    .note{
-        
-        margin-left:20px;
-    }
-    .note p{
-        margin-top:5px;
-    }
-    .greece-wrap{
-       /*  border:1px pink solid; */
-        width:400px;
-        height:100%;
-        position:relative;
-    }
-    .greece-first-container{
-        height:90%;
-        width:400px;
-       /*  border:1px black solid; */
-        
-    }
-    .people-going{
-        display:flex;
-        justify-content:space-between;
-    }
-    .trip-to-rome{
-        position:absolute;
-        margin-top:-120px;
-        margin-left:80px;
-    }
-    .review-wrap{
-       /*  border:1px solid green; */
-        width:100%;
-        height:550px;
-        background:#ECF1F0;
-        position:relative;
-    
-     
-    }
-    .review-heading{
-        text-align:center;
-        padding-top:30px;
-        font-size:22px;
-    
-    }
-    
-    .review-wrap img{
-    margin-left:auto;
-    margin-right:auto;
-    display:block;
-    margin-top:40px;
-    width:800px;
-    height:300px;
-    position:relative;
-    
-    }
-    
-       
-    .word-bg{
-        background:white;
-        height:200px;
-        width:500px;
-        position:absolute;
-        left:425px;
-        top:300px;
-      
-    }
-    .word-bg p{
-        text-align:center;
-        margin-top:80px;
-    }
-    .word-bg b{
-        margin-top:20px;
-       margin-left:200px;
-    }
-    .reviewer img{
-        height:150px;
-        width:150px;
-        position:relative;
-        top:-240px;
-    }
-    
-    .about-us-wrap{
-        width:100%;
-        height:800px;
-        background:white;
-        
-    
-    }
-    .sub-info{
-        width:700px;
-        height:280px;
-        background: #9FFFEC;
-        border-radius:100px 0 0 0;
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        margin-top:60px;
-        padding-top:50px;
-        position:relative;
-    }
-    .sub-info h3{
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        width:500px;
-        text-align:center;
-        font-weight:light;
-       
-    }
-    input{
-        margin-left:100px;
-        height:60px;
-        width:300px;
-        margin-right:20px;
-        border-radius:15px;
-        border-style:none;
-        
-    }
-    .plane-paper{
-        position:absolute;
-        right:-15px;
-        top:-15px;
-    }
-    
-    .bottom{
-        width:90%;
-        display:flex;
-        margin-left:auto;
-        margin-right:auto;
-       /*  border:1px red solid; */
-        height: 250px;
-        justify-content:space-between;
-        margin-top:80px;
-    }
-    .logo-below p{
-        width:150px;
-        font-size:x-small;
-    }
-    .logo-below img{
-        margin-left:35px;
-    }
-    .table-like{
-        width:600px;
-        height:250px;
-       /*  border:green 1px solid; */
-        display:flex;
-        justify-content:space-between;
-    }
-    .social-platforms{
-        width:250px;
-        height:250px;
-      /*   border:orange 1px solid; */
-    }
-    .facebook-likes{
-        display:flex;
-        justify-content:space-between;
-    }
-    
-    .footer{
-      margin-left:600px;
-      margin-top:80px;
-    }
-    
-    
-    
+   .our-goal{
+    display:flex;
+    flex-direction:column;
+    height:100vh;
+   }
+   .our-goal-heading h4{
+    width:300px;
+    text-align: center;
+    margin:auto;
+    font-size:24px;
+   }
+   .child-div{
+    display:flex;
+    width:90%;
+    margin:auto;
 
+    
+   }
+   .child-div p{
+    margin-top:50px;
+   }
+   .child-div .p-two{
+     margin-top:63px;
+     font-size:10px;
+   }
+   .destination{
+    height:950px;
+    width:100%;
+    /* border:1px red solid; */
+    
+   }
+   .destination h3{
+    text-align:center;
+    padding-top:50px;
+    font-size:24px;
+   }
+.destination-content{
+    flex-direction:column;
+    height:800px;
+    
 }
+.pop-map img{
+    width:90%;
+    margin-left:18px;
+   
+    height:200px;
+   /*  border:3px blue solid; */
+}
+.pop-images{
+    height:110%;
+    width:90%;
+    margin:auto;
+    flex-wrap:wrap;
+   /*  border:3px purple solid; */
+    gap:5px;
+}
+.location{
+    height:120px;
+    margin-right:5px;
+}
+.location .next{
+    margin-top:50px;
+    height:20px;
+    width:20px;
+}
+.packages-wrap{
+    margin-top:50px;
+    width:90%;
+    margin:auto;
+}
+    }
