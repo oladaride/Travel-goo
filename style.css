@@ -437,7 +437,7 @@ position:relative;
     padding-top:50px;
     position:relative;
 }
-.sub-info h3{
+.sub-info h4{
     margin-left:auto;
     margin-right:auto;
     display:block;
@@ -473,6 +473,8 @@ input{
     justify-content:space-between;
     margin-top:80px;
 }
+
+
 .logo-below p{
     width:150px;
     font-size:x-small;
