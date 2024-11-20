@@ -315,6 +315,10 @@ margin-left:50px;
     
 }
 
+.bookings-wrap .easy{
+    text-align:center;
+    margin-top:-50px;
+}
 
 .booking-heading{
     text-align:center;
@@ -726,5 +730,219 @@ input{
     margin-top:50px;
     width:90%;
     margin:auto;
+    height:1300px;
+   /*  border:2px red solid; */
+
 }
-    }
+.listed-packages{
+    flex-wrap:wrap;
+    gap:10px;
+}
+.list-content{
+    padding-bottom:3px;
+}
+.location-wrap{
+    flex-direction:column;
+    /* border:1px green solid; */
+    height:950px;
+    margin-top:100px;
+    
+}
+.location-wrap-content{
+    height:300px;
+    width:90%;
+    margin:auto;
+   
+}
+.location-wrap-content img{
+    height:180px;
+    width:100%;
+}
+.ep img{
+    display:none;
+}
+.packages-wrap button{
+    margin-top:30px;
+    
+}
+.bookings-wrap{
+    height:830px;
+   /*  border:2px red solid; */
+    width:90%;
+    margin:auto;
+}
+.bookings-wrap h3{
+    text-align:center;
+    width:100%;
+    font-size:18px;
+
+    
+}
+.bookings-wrap .easy{
+    text-align:center;
+    margin-top:-50px;
+}
+.procedure-wrap{
+    flex-direction:column;
+    width:100%;
+}
+.procedures{
+    width:90%;
+   /*  border:1px blue solid; */
+    height:750px;
+    display:space-between;
+    margin:auto;
+    
+    
+}
+.procedure-child{
+    width:100%;
+}
+.procedure-child img{
+width:140px;
+height:120px;
+}
+.greece-wrap{
+    height:500px;
+    width:90%;
+    margin:auto;
+   /*  border:pink 1px solid; */
+    margin-top:30px;
+}
+
+.girl-image img{
+    width:fit-content;
+}
+.map-stuff img{
+    width:150px;
+    height:50px;
+}
+.people-going{
+    display:none;
+}
+.trip-to-rome{
+    margin-left:123px;
+    width:250px;
+}
+.review-wrap{
+    width:90%;
+    margin:auto;
+    height:600px;
+    border:1px green solid;
+   
+}
+.review-content img{
+    width:100%;
+    position:relative;
+    
+   
+}
+
+.word-bg{
+    width:70%;
+    position:absolute;
+    left:50px;
+    top:300px;
+    margin-top:20px;
+   
+    
+}
+.reviewer img{
+    height:150px;
+    width:150px;
+    position:relative;
+    top:-190px;
+}
+.r-n{
+    text-align:center;
+}
+
+.about-us-wrap{
+    width:90%;
+    margin:auto;
+    border:darkmagenta 1px solid;
+}
+.sub-info{
+    width:100%;
+    height:250px;
+    background: #9FFFEC;
+    border-radius:40px 0 0 0;
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+    margin-top:30px;
+    padding-top:20px;
+    position:relative;
+}
+.sub-info h4{
+    font-size:18px;
+    width:100%;
+    margin-bottom:40px;
+    margin-top:20px;
+
+}
+.plane-paper{
+    width:20px;
+    height:20px;
+    position:absolute;
+    right:0;
+    top:-7px;
+}
+.sub-info input{
+    width:120px;
+    height:45px;
+    margin-left:80px;
+}
+.sub-info button{
+    width:100px;
+}
+
+
+.bottom{
+    width:90%;
+    display:flex;
+    margin-left:auto;
+    margin-right:auto;
+   /*  border:1px red solid; */
+    height: 250px;
+    justify-content:space-between;
+    margin-top:80px;
+}
+
+
+.logo-below p{
+    width:80px;
+    font-size:8px;
+}
+.logo-below img{
+    margin-left:5px;
+    width:50px;
+    height:50px;
+}
+.table-like{
+  
+   /*  height:300px; */
+    /* border:green 1px solid; */
+    display:flex;
+   
+    justify-content:space-between;
+
+}
+.social-platforms{
+    width:100px;
+    height:100px;
+  /*   border:orange 1px solid; */
+}
+.facebook-likes{
+    display:flex;
+    flex-direction:column;
+    justify-content:space-between;
+}
+
+.footer{
+    margin-left:80px;
+    margin-bottom:0;
+}
+
+}
+
