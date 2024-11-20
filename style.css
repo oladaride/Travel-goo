@@ -660,31 +660,30 @@ input{
     .our-goal-heading{
         background:#0058530D;
         width:100%;
-        height:200px;
         text-align:center;
         margin:auto;
        
        
     }
     .our-goal-heading p{
-        padding-top:70px;
+        padding-top:20px;
         text-align:center;
-        width:500px;
+        width:200px;
         margin-left:430px;
        
      }
     
     h4{
-        font-size: 22px;
+        font-size: 17px;
     }
     
     
     .our-goal{
         width:100%;
-        height:350px;
+        height:300px;
         text-align:center;
         display:flex;
-        justify-content:space-around;
+        justify-content:space-between;
         background: #0058530D;
         margin-top:auto;
     }
@@ -692,8 +691,8 @@ input{
     .child-div{
     
         /* border:1px solid green; */
-        height:150px;
-        width:150px;
+        height:205px;
+        width:80px;
         justify-content:center;
         border-radius:12px;
         text-align:center;
@@ -727,7 +726,7 @@ input{
         width:100%;
         background-color:white;
         display:flex;
-        grid-template-columns: 400px 400px;
+       
     }
     .pop-images{
     display:grid;
@@ -751,7 +750,7 @@ input{
         margin-top:45px;
     }
     .packages-wrap{
-        height:850px;
+        height:1300px;
         width:100%;
         background: #ECF1F0;
     
@@ -772,52 +771,70 @@ input{
         display:block;
         display:flex;
         justify-content:space-between;
-        margin-top:40px;
+        margin-top:20px;
+        
     
     }
     .list-content{
-        border-radius:10px;
+        border-radius:6px;
         background: #666666;
         color:white;
-        width:130px;
+        width:80px;
         text-align:center;
         padding-top:6px;
+        margin-inline: 3px;
     }
     .odd-color{
         background:green;
     }
     .location-wrap{
-        height:600px;
+        height:1100px;
         width:90%;
-        /* border:1px rgb(127, 202, 127) solid; */
+       /*  border:1px rgb(127, 202, 127) solid; */
+        margin-top:50px;
+        display:list-item;
         margin-left:auto;
         margin-right:auto;
-        display:block;
-        margin-top:50px;
-        display:flex;
-        justify-content:space-between;
+       
+         
     }
     .location-wrap-content{
-     height:500px;
-     width:320px;
+     height:300px;
+     width:100%;
      border-radius:10px;
      background:white;
+     margin-top:30px;
     }
+   .price-ish{
+    display:flex;
+    justify-content: space-between;
+    width:330px;
+   }
     .location-wrap-content img{
         width:inherit;
         height:65%;
-    
+
     }
-    
+    .ep img{
+        display:none;
+    }
+   
     .location-wrap-content div{
         display:flex;
         justify-content:space-between;
+        min-width:330px;
     }
     .packages-wrap button{
-        margin-left:auto;
-        margin-right:auto;
-        display:block;
-        margin-top:-50px;
+        
+        margin-top:40px;
+        color: #FFFFFF; 
+        background: #00A651;
+        width:214px;
+        height:40px;
+        font-size: 20px;
+        border-radius:15px ;
+        cursor:pointer;
+        border-style:none;
       
     }
     .bookings-wrap{
@@ -1019,8 +1036,7 @@ input{
       margin-top:80px;
     }
     
-    /* ----------- --------------------------------------*/
+    
     
 
-}
 }
